@@ -126,9 +126,10 @@ YouTube Music Desktop
 # 🔥 Streamer.bot Rewards
 
 ```text
-🎵 SR FIRE
-🔥 Skip Prio FIRE
-⏭️ Skip FIRE
+🎵 SR
+🎵 SR Prio
+🔥 Skip Prio 
+⏭️ Skip 
 ```
 
 ---
