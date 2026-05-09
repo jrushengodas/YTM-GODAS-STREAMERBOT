@@ -163,22 +163,6 @@ V3 supports multiple YouTube API Keys :
 
 ---
 
-## 4️⃣ Run setup command
-
-Launch :
-
-```text
-!godasytm
-```
-
-Fill :
-- API Key 1
-- API Key 2
-- API Key 3
-- Host
-- Port
-
----
 
 # ❤️ Credits
 
