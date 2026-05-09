@@ -161,46 +161,6 @@ V3 supports multiple YouTube API Keys :
 
 # ⚡ Quick Installation
 
-## 1️⃣ Install YouTube Music Desktop
-
-Enable :
-
-```text
-Settings → Integrations → Companion Server
-```
-
-Default port :
-
-```text
-26538
-```
-
----
-
-## 2️⃣ Create YouTube API Keys
-
-Create 1 to 3 API Keys from :
-
-```text
-Google Cloud Console
-```
-
-Enable :
-
-```text
-YouTube Data API v3
-```
-
----
-
-## 3️⃣ Import Streamer.bot package
-
-Import :
-
-```text
-YTM_GODAS_V3.sb
-```
-
 ---
 
 ## 4️⃣ Run setup command
