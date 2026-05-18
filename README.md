@@ -165,7 +165,7 @@ Supports multiple YouTube API Keys :
 
 ```text
 - Streamer.bot
-- YouTube Music Desktop
+- MY YouTube Music Desktop
 - Companion Server enabled
 - Port 26538
 - YouTube API Keys
@@ -174,15 +174,6 @@ Supports multiple YouTube API Keys :
 ---
 
 # Quick Installation
-
-```text
-1. Install YouTube Music Desktop
-2. Enable Companion Server
-3. Configure API Keys
-4. Import Streamer.bot actions
-5. Enable watcher
-6. Enjoy
-```
 
 ---
 
