@@ -1,17 +1,16 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jrushengodas/YTM-GODAS-FIREBOT/main/assets/logo.jpg" width="400">
+  <img src="https://raw.githubusercontent.com/jrushengodas/YTM-GODAS-STREAMERBOT/main/assets/logo.jpg" width="400">
 </p>
 
 <h1 align="center">YTM Song Request V3.1 - Godas DEV</h1>
 
 <p align="center">
-  Advanced YouTube Music Song Request System for Firebot & Streamer.bot
+  Advanced YouTube Music Song Request System for Streamer.bot
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-stable-green">
   <img src="https://img.shields.io/badge/version-3.1-blue">
-  <img src="https://img.shields.io/badge/Firebot-compatible-orange">
   <img src="https://img.shields.io/badge/Streamer.bot-compatible-purple">
   <img src="https://img.shields.io/badge/YTMDesktop-supported-red">
 </p>
@@ -36,7 +35,6 @@
 - Current / next song commands
 - Playlist viewer
 - Full queue cleaner
-- Firebot compatible
 - Streamer.bot compatible
 - YouTube Music Desktop compatible
 
@@ -94,7 +92,7 @@ Automatically avoids :
 ```text
 Viewer
    ↓
-Firebot / Streamer.bot
+Streamer.bot
    ↓
 GODAS Local Queue
    ↓
@@ -150,7 +148,6 @@ Supports multiple YouTube API Keys :
 # Compatibility
 
 ```text
-✅ Firebot
 ✅ Streamer.bot
 ✅ YouTube Music Desktop
 ✅ Companion Server
@@ -161,11 +158,11 @@ Supports multiple YouTube API Keys :
 # Requirements
 
 ```text
+- Streamer.bot
 - YouTube Music Desktop
 - Companion Server enabled
 - Port 26538
 - YouTube API Keys
-- Firebot or Streamer.bot
 ```
 
 ---
@@ -176,7 +173,7 @@ Supports multiple YouTube API Keys :
 1. Install YouTube Music Desktop
 2. Enable Companion Server
 3. Configure API Keys
-4. Import scripts
+4. Import Streamer.bot actions
 5. Enable watcher
 6. Enjoy
 ```
@@ -200,9 +197,7 @@ Check :
 
 # Technologies
 
-- Firebot
 - Streamer.bot
-- JavaScript
 - C#
 - YouTube Data API v3
 - YouTube Music Desktop
