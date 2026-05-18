@@ -9,6 +9,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/jrushengodas/YTM-GODAS-STREAMERBOT/releases">
+    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD-LATEST_RELEASE-00ff99?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/status-stable-green">
   <img src="https://img.shields.io/badge/version-3.1-blue">
   <img src="https://img.shields.io/badge/Streamer.bot-compatible-purple">
