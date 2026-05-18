@@ -1,48 +1,70 @@
 <p align="center">
-  <img src="assets/logo.jpg" width="400">
+  <img src="https://raw.githubusercontent.com/jrushengodas/YTM-GODAS-FIREBOT/main/assets/logo.jpg" width="400">
 </p>
 
-<h1 align="center">🔥 YTM Song Request V3 - Godas DEV</h1>
+<h1 align="center">YTM Song Request V3.1 - Godas DEV</h1>
 
 <p align="center">
-  Advanced YouTube Music Song Request System for Streamer.bot
-</p>
-
-<p align="center">
-  <a href="https://github.com/jrushengodas/YTM-GODAS-STREAMERBOT/releases/download/1.0.0/YTM-GODAS-STREAMERBOT.zip">
-    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD-COMPLETE_PACKAGE-00ff99?style=for-the-badge&logo=github&logoColor=white">
-  </a>
+  Advanced YouTube Music Song Request System for Firebot & Streamer.bot
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-stable-green">
-  <img src="https://img.shields.io/badge/version-3.0-blue">
+  <img src="https://img.shields.io/badge/version-3.1-blue">
+  <img src="https://img.shields.io/badge/Firebot-compatible-orange">
   <img src="https://img.shields.io/badge/Streamer.bot-compatible-purple">
   <img src="https://img.shields.io/badge/YTMDesktop-supported-red">
 </p>
 
 ---
 
-# 🚀 Features
+# Features
 
-- 🎶 Song Request via `!sr`
-- ⚡ Ultra fast local queue system
-- 🔥 Real Skip Prio system
-- 🎧 Full YouTube Music Desktop compatibility
-- 🔗 YouTube / YouTube Music links support
-- 🧠 Advanced intelligent search
-- 🔑 Multi YouTube API Keys support
-- 🔄 Retry system anti quota / anti bug
-- 📜 Queue & playlist system
-- ⏭️ Current / next song commands
-- 🧹 Full queue cleaner
-- ⚡ Streamer.bot ready
+- Song Request via `!sr`
+- Priority SR system
+- Local intelligent queue system
+- YouTube / YouTube Music links support
+- Search by title + artist
+- Multi YouTube API Keys support
+- Smart retry system
+- Auto timeout recovery
+- Auto stuck song detection
+- Fake current detection
+- Auto skip protection
+- Playlist sync system
+- Dynamic SR reinjection
+- Current / next song commands
+- Playlist viewer
+- Full queue cleaner
+- Firebot compatible
+- Streamer.bot compatible
+- YouTube Music Desktop compatible
 
 ---
 
-# 🧠 Intelligent Search System
+# What's New In V3.1
 
-The V3 automatically analyzes :
+V3.1 introduces a complete stability rewrite of the watcher system.
+
+New protections :
+
+```text
+✅ Fake current detection
+✅ Waiting timeout recovery
+✅ Auto reinjection system
+✅ Auto skip on stuck songs
+✅ Playlist change detection
+✅ Queue resync system
+✅ Better YTM Desktop compatibility
+✅ Invalid cache protection
+✅ Retry logic improvements
+```
+
+---
+
+# Intelligent Search System
+
+The system automatically analyzes :
 
 ```text
 ✅ Song title
@@ -61,54 +83,29 @@ Automatically avoids :
 ❌ nightcore
 ❌ live
 ❌ karaoke
-❌ playlist
 ❌ reactions
+❌ playlists
 ```
 
 ---
 
-# 🔥 Why V3 ?
-
-Complete rewrite of the old system :
-
-```text
-❌ No more Google OAuth
-❌ No more YouTube playlists
-❌ No more unstable queue system
-❌ No more StreamElements limitations
-```
-
-New architecture :
-
-```text
-✅ Smart local queue
-✅ Real priority system
-✅ Stable Skip Prio
-✅ Multi API Keys
-✅ Automatic retries
-✅ Better precision
-✅ Streamer.bot support
-```
-
----
-
-# ⚡ Architecture
+# Architecture
 
 ```text
 Viewer
    ↓
-Streamer.bot
+Firebot / Streamer.bot
    ↓
 GODAS Local Queue
    ↓
-Watcher V3
+Watcher V3.1
    ↓
 YouTube Music Desktop
 ```
 
 ---
 
-# 🎮 Commands
+# Commands
 
 ```text
 !sr music          → Add a song
@@ -117,86 +114,115 @@ YouTube Music Desktop
 !nextsr            → Next local SR
 !playlist          → Show SR queue
 !skip              → Skip current song
-!prio music        → Skip Prio
-!clear             → Clear all queue
+!prio music        → Priority SR
+!clear             → Clear queue
 ```
 
 ---
 
-# 🔥 Streamer.bot Rewards
+# Watcher V3.1 Protections
 
 ```text
-🎵 SR
-🎵 SR Prio
-🔥 Skip Prio 
-⏭️ Skip 
+✅ Detects fake current songs
+✅ Handles broken YTM queue states
+✅ Handles playlist changes
+✅ Auto retries failed SR
+✅ Auto skip impossible songs
+✅ Protects against frozen SR
+✅ Queue synchronization system
 ```
 
 ---
 
-# 🔑 Multi API Keys
+# Multi API Keys
 
-V3 supports multiple YouTube API Keys :
+Supports multiple YouTube API Keys :
 
 ```text
 ✅ Automatic key rotation
 ✅ Quota protection
 ✅ Retry system
-✅ Much more SR per day
+✅ Massive SR capacity
 ```
 
 ---
 
-# 📚 Documentation
+# Compatibility
 
-- 📄 Installation
-- 📄 Google Cloud API Setup
-- 📄 YTM Desktop Setup
-- 📄 Streamer.bot Setup
-- 📄 Commands
-- 📄 Rewards
-- 📄 Credits
-
----
-
-# ⚡ Quick Installation
+```text
+✅ Firebot
+✅ Streamer.bot
+✅ YouTube Music Desktop
+✅ Companion Server
+```
 
 ---
 
+# Requirements
 
-# ❤️ Credits
+```text
+- YouTube Music Desktop
+- Companion Server enabled
+- Port 26538
+- YouTube API Keys
+- Firebot or Streamer.bot
+```
 
-## Development
+---
 
-Godas DEV
+# Quick Installation
 
-## Technologies
+```text
+1. Install YouTube Music Desktop
+2. Enable Companion Server
+3. Configure API Keys
+4. Import scripts
+5. Enable watcher
+6. Enjoy
+```
 
+---
+
+# Troubleshooting
+
+Check :
+
+```text
+- YTM Desktop is running
+- Companion Server enabled
+- Port 26538 open
+- API Keys valid
+- Watcher enabled
+- Queue variables initialized
+```
+
+---
+
+# Technologies
+
+- Firebot
 - Streamer.bot
+- JavaScript
 - C#
 - YouTube Data API v3
 - YouTube Music Desktop
 
 ---
 
-# 🛠 Troubleshooting
+# Credits
 
-Check :
+Development :  
+Godas DEV
 
-- YouTube Music Desktop is running
-- Companion Server enabled
-- Port `26538`
-- API Keys valid
-- Watcher enabled inside Streamer.bot
+Special thanks :  
+Twitch community testers
 
 ---
 
 <p align="center">
-  ⚡ YTM Song Request System V3
+  YTM Song Request System V3.1
   <br>
-  Developed with ❤️ by <strong>Godas DEV</strong>
+  Developed by <strong>Godas DEV</strong>
   <br><br>
   <img src="https://img.shields.io/badge/GODAS-DEV-00ff99?style=for-the-badge">
-  <br><br>
-  <sub>Made with passion for Twitch streamers 🎧</sub>
 </p>
