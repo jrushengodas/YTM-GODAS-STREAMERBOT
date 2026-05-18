@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/jrushengodas/YTM-GODAS-STREAMERBOT/releases">
-    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD-LATEST_RELEASE-00ff99?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD-COMPLETE_PACKAGE-00ff99?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
