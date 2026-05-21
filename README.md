@@ -2,10 +2,12 @@
   <img src="https://raw.githubusercontent.com/jrushengodas/YTM-GODAS-STREAMERBOT/main/assets/logo.jpg" width="400">
 </p>
 
-<h1 align="center">YTM Song Request V3.1 - Godas DEV</h1>
+<h1 align="center">YTM Song Request V3.1</h1>
 
 <p align="center">
   Advanced YouTube Music Song Request System for Streamer.bot
+  <br>
+  Built for stability, automation and large Twitch communities.
 </p>
 
 <p align="center">
@@ -19,76 +21,85 @@
   <img src="https://img.shields.io/badge/version-3.1-blue">
   <img src="https://img.shields.io/badge/Streamer.bot-compatible-purple">
   <img src="https://img.shields.io/badge/YTMDesktop-supported-red">
+  <img src="https://img.shields.io/badge/API-MultiKeys-orange">
 </p>
 
 ---
 
 # Features
 
-- Song Request via `!sr`
-- Priority SR system
-- Local intelligent queue system
-- YouTube / YouTube Music links support
-- Search by title + artist
-- Multi YouTube API Keys support
-- Smart retry system
-- Auto timeout recovery
-- Auto stuck song detection
-- Fake current detection
-- Auto skip protection
-- Playlist sync system
-- Dynamic SR reinjection
-- Current / next song commands
-- Playlist viewer
-- Full queue cleaner
-- Streamer.bot compatible
-- YouTube Music Desktop compatible
+```text
+✅ Song Request via !sr
+✅ Priority Song Requests
+✅ Local intelligent queue system
+✅ YouTube & YouTube Music links support
+✅ Search by title + artist
+✅ Multi YouTube API Keys support
+✅ Smart retry system
+✅ Auto cache system
+✅ Queue cleaner
+✅ Auto stuck song detection
+✅ Auto skip protection
+✅ Fake current detection
+✅ Frozen YTM protection
+✅ Playlist compatibility
+✅ Current / next song commands
+✅ Playlist viewer
+✅ Streamer.bot compatible
+✅ YouTube Music Desktop compatible
+```
 
 ---
 
 # What's New In V3.1
 
-V3.1 introduces a complete stability rewrite of the watcher system.
+V3.1 introduces a major rewrite focused on stability and YTM Desktop reliability.
 
-New protections :
+### New protections
 
 ```text
 ✅ Fake current detection
-✅ Waiting timeout recovery
-✅ Auto reinjection system
-✅ Auto skip on stuck songs
-✅ Playlist change detection
-✅ Queue resync system
-✅ Better YTM Desktop compatibility
-✅ Invalid cache protection
+✅ Auto skip on frozen songs
+✅ Auto timeout protection
+✅ Better queue synchronization
+✅ Stuck song detection
+✅ Improved cache validation
+✅ Better YTM Desktop handling
+✅ Invalid API key protection
 ✅ Retry logic improvements
+✅ Better local queue cleanup
 ```
 
 ---
 
 # Intelligent Search System
 
-The system automatically analyzes :
+The search engine automatically analyzes :
 
 ```text
 ✅ Song title
 ✅ Artist name
-✅ Official versions
 ✅ Official audio
-✅ VEVO / official channels
+✅ Official video
+✅ VEVO channels
+✅ Official channels
+✅ Topic channels
 ```
 
 Automatically avoids :
 
 ```text
+❌ YouTube Shorts
 ❌ sped up
 ❌ slowed
-❌ remix
 ❌ nightcore
-❌ live
-❌ karaoke
+❌ remix
+❌ TikTok edits
 ❌ reactions
+❌ karaoke
 ❌ playlists
+❌ compilations
+❌ live versions
 ```
 
 ---
@@ -128,17 +139,19 @@ YouTube Music Desktop
 
 ```text
 ✅ Detects fake current songs
-✅ Handles broken YTM queue states
-✅ Handles playlist changes
-✅ Auto retries failed SR
-✅ Auto skip impossible songs
-✅ Protects against frozen SR
-✅ Queue synchronization system
+✅ Handles frozen YTM states
+✅ Detects songs stuck at 0:00
+✅ Auto skip system
+✅ Queue synchronization
+✅ Cooldown protection
+✅ Duplicate prevention
+✅ Broken queue protection
+✅ Invalid queue cleanup
 ```
 
 ---
 
-# Multi API Keys
+# Multi API Keys System
 
 Supports multiple YouTube API Keys :
 
@@ -146,7 +159,18 @@ Supports multiple YouTube API Keys :
 ✅ Automatic key rotation
 ✅ Quota protection
 ✅ Retry system
+✅ Invalid key detection
 ✅ Massive SR capacity
+```
+
+Example :
+
+```json
+[
+  "API_KEY_1",
+  "API_KEY_2",
+  "API_KEY_3"
+]
 ```
 
 ---
@@ -157,6 +181,7 @@ Supports multiple YouTube API Keys :
 ✅ Streamer.bot
 ✅ YouTube Music Desktop
 ✅ Companion Server
+✅ Twitch Chat Commands
 ```
 
 ---
@@ -165,7 +190,7 @@ Supports multiple YouTube API Keys :
 
 ```text
 - Streamer.bot
-- MY YouTube Music Desktop
+- YouTube Music Desktop
 - Companion Server enabled
 - Port 26538
 - YouTube API Keys
@@ -173,7 +198,67 @@ Supports multiple YouTube API Keys :
 
 ---
 
-# Quick Installation
+# Installation
+
+## 1. Install YouTube Music Desktop
+
+Enable :
+
+```text
+Settings → Integrations → Companion Server
+```
+
+Default port :
+
+```text
+26538
+```
+
+---
+
+## 2. Import Streamer.bot Package
+
+Import :
+
+```text
+YTM-GODAS-STREAMERBOT.zip
+```
+
+---
+
+## 3. Configure API Keys
+
+Add your YouTube API Keys :
+
+```text
+youtubeApiKeys_godas
+```
+
+Example :
+
+```json
+[
+  "AIzaSyXXXXXXXX",
+  "AIzaSyYYYYYYYY",
+  "AIzaSyZZZZZZZZ"
+]
+```
+
+---
+
+## 4. Enable Watcher
+
+Enable :
+
+```text
+YTM - Auto SR Watcher
+```
+
+Recommended interval :
+
+```text
+5 seconds
+```
 
 ---
 
@@ -190,29 +275,47 @@ Check :
 - Queue variables initialized
 ```
 
+If YTM freezes :
+
+```text
+1. Disable autoplay
+2. Clear YTM queue
+3. Run !clear
+4. Restart playback manually
+```
+
 ---
 
 # Technologies
 
+```text
 - Streamer.bot
 - C#
+- Newtonsoft.Json
 - YouTube Data API v3
 - YouTube Music Desktop
+```
 
 ---
 
 # Credits
 
-Development :  
-Godas DEV
+### Development
 
-Special thanks :  
+```text
+Godas DEV
+```
+
+### Special thanks
+
+```text
 Twitch community testers
+```
 
 ---
 
 <p align="center">
-  YTM Song Request System V3.1
+  <strong>YTM Song Request System V3.1</strong>
   <br>
   Developed by <strong>Godas DEV</strong>
   <br><br>
